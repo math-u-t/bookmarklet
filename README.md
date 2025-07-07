@@ -17,7 +17,7 @@ Webブラウザの拡張機能が使えないスマートフォンでも活躍�
 
 ## 何をしてるか ##
 
-[math-u-t](https://github.com/math-u-t)が作成したブックマークレットを公開します。
+[sphylics](https://github.com/sphylics)が作成したブックマークレットを公開します。
 
 コードは[MIT](LICENSE)ライセンスで公開してるので自由に使ってください。
 

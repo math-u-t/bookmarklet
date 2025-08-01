@@ -1,4 +1,4 @@
-# ページ編集 #
+# [ページ編集](bookmarklet/source/edit.js) #
 
 ## 説明 ##
 
@@ -9,5 +9,5 @@
 ### Bookmarkletコード ###
 
 ```javascript
-javascript:void(document.designMode=(document.designMode=='off'?%27on%27:%27off%27));
+javascript:void(document.designMode = (document.designMode == 'off' ? 'on' : 'off'));
 ```

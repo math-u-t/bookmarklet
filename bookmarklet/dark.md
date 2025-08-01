@@ -1,4 +1,4 @@
-# オーバーレイ #
+# [オーバーレイ](bookmarklet/source/dark.js) #
 
 ## 概要 ##
 
@@ -16,7 +16,7 @@
 ## ブックマークレットコード ##
 
 ```javascript
-javascript:(function(c,d){var o=d.getElementById('my-overlay');if(o){o.style.display=o.style.display==='none'?%27block%27:%27none%27;}else{o=d.createElement(%27div%27);o.id=%27my-overlay%27;o.style.position=%27fixed%27;o.style.top=0;o.style.left=0;o.style.width=%27100vw%27;o.style.height=%27100vh%27;o.style.backgroundColor=c;o.style.cursor=%27pointer%27;o.style.pointerEvents=%27none%27;d.body.appendChild(o);}setInterval(function(){o.style.zIndex=99999;},1000);})(%27rgba(0,0,0,0.7)%27,document);
+javascript:(function(c,d){var o=d.getElementById('my-overlay');if(o){o.style.display=o.style.display==='none'?'block':'none';}else{o=d.createElement('div');o.id='my-overlay';o.style.position='fixed';o.style.top=0;o.style.left=0;o.style.width='100vw';o.style.height='100vh';o.style.backgroundColor=c;o.style.cursor='pointer';o.style.pointerEvents='none';d.body.appendChild(o);}setInterval(function(){o.style.zIndex=99999;},1000);})('rgba(0,0,0,0.7)',document);
 ```
 
 ## カスタマイズ ##

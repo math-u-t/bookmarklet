@@ -1,4 +1,4 @@
-# テキストエディター #
+# [数式エディター](bookmarklet/source/math.js) #
 
 ## 概要 ##
 

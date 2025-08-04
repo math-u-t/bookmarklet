@@ -29,3 +29,4 @@ Webブラウザの拡張機能が使えないスマートフォンでも活躍�
 |[暗](bookmarklet/dark.md)|クリックすると薄い黒色のオーバーレイが表示されます。画面を覗かれたくないときに便利です。|
 |[数式エディター](bookmarklet/math.md)|クリックするとテキストエディターが現れます。自動編集モードをonにするとLatexみたいに\alphaとか\,2とか入力すると自動でテキスト変換されます。|
 |[ページ編集](markdown/edit.md)|ページのソースを編集できます。`document.desinmode="on"`と同じです。|
+|[x-viewer](markdown/x-viewer.md)|xの閲覧数を簡単に合計します。|
